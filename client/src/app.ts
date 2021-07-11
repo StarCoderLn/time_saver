@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Taro, { Config } from '@tarojs/taro'
 
-import './app.scss'
+import "./app.scss"
 
 class App extends Component {
 

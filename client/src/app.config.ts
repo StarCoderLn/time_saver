@@ -1,12 +1,19 @@
 export default {
   pages: [
-    'pages/index/index'
+    'pages/home/index',
+    'pages/WeRun/index',
+    'pages/WeLocate/index',
   ],
   window: {
     backgroundTextStyle: 'light',
-    navigationBarBackgroundColor: '#fff',
+    navigationBarBackgroundColor: '#178fff',
     navigationBarTitleText: 'WeChat',
-    navigationBarTextStyle: 'black'
+    navigationBarTextStyle: 'white'
   },
-  cloud: true
+  cloud: true,
+  permission: {
+    'scope.userLocation': {
+      'desc': '获取你的位置信息将用于导航'
+    }
+  }
 }

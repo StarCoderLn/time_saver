@@ -13,6 +13,7 @@ const config = {
   outputRoot: 'dist',
   alias: {
     '@/components': path.resolve(__dirname, '..', 'src/components'),
+    '@/utils': path.resolve(__dirname, '..', 'src/utils'),
   },
   plugins: [],
   defineConstants: {
@@ -63,7 +64,8 @@ const config = {
           generateScopedName: '[name]__[local]___[hash:base64:5]'
         }
       }
-    }
+    },
+    esnextModules: ['taro-ui']
   }
 }
 

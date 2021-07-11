@@ -16,3 +16,9 @@ declare const process: {
     [key: string]: any;
   }
 }
+
+declare const wx: {
+  cloud: {
+    CloudID: Function
+  }
+}

@@ -42,6 +42,8 @@ module.exports = {
   },
   "rules": {
     "react/jsx-uses-react": "off",
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+    "quotes": ["error", "single"],
+    "jsx-quotes": ["error", "prefer-single"]
   }
 }
